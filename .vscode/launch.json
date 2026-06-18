@@ -1,0 +1,24 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "type": "java",
+      "name": "Run Modulith (Spring Boot)",
+      "request": "launch",
+      "cwd": "${workspaceFolder}",
+      "mainClass": "com.example.modulith.ModulithApplication",
+      "projectName": "modulith",
+      "preLaunchTask": "Maven: package (skip tests)",
+      "console": "internalConsole",
+      "args": "",
+      "env": {}
+    },
+    {
+      "type": "java",
+      "name": "Attach to Modulith (Remote)",
+      "request": "attach",
+      "hostName": "localhost",
+      "port": 5005
+    }
+  ]
+}
