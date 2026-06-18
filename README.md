@@ -15,7 +15,7 @@ To build:
 
 To run modulith module:
 
-    mvn -pl modulith spring-boot:run
+    mvn -pl domain-mt-modulith-service spring-boot:run
 
 Developer setup:
 
